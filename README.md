@@ -1,4 +1,4 @@
-# DNNforParticleTracking
+# Using Machine Learning for Particle Tracking at the Large Hadron Collider
 
 Description: In this study, an advanced Deep Neural Network (DNN) was meticulously developed to process and analyze a dataset sourced from the Large Hadron Collider (LHC) experiment, utilizing data collected by the Compact Muon Solenoid (CMS) Detector. The main goal of the DNN was to employ cutting-edge line segment tracking techniques to predict the validity of particle tracks identified by the CMS Detector.
 
@@ -14,3 +14,9 @@ In conclusion, this study demonstrated the remarkable potential of the developed
 ![Loss Curve of DNN](LossCurve.png)
 ![Predicted Scores of DNN](PredictedScores.png)
 ![ROC Curve of DNN vs GNN](ROC_Curve.png)
+
+# Credits
+* Frank Wuerthwein (PI)
+* Jonathan Guiang (mentor)
+* Alejandro Dennis
+* Abraham Flores
