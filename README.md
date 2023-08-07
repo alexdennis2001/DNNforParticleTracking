@@ -11,3 +11,6 @@ Furthermore, we conducted an in-depth analysis using Receiver Operating Characte
 In conclusion, this study demonstrated the remarkable potential of the developed DNN in enhancing particle track selection within the CMS Detector. The utilization of various analytical tools, including ROC curves and threshold optimization techniques, further underscored the effectiveness of our approach and highlighted the competitiveness of even the simplest DNN architecture.
 
 ![Final Poster](FinalPoster.png)
+![Loss Curve of DNN](LossCurve.png)
+![Predicted Scores of DNN](PredictedScores.png)
+![ROC Curve of DNN vs GNN](ROC_Curve.png)
