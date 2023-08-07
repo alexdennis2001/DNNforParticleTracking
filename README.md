@@ -1,6 +1,10 @@
-# DNNforParticleTracking
+# Using Machine Learning for Particle Tracking at the Large Hadron Collider
 
-Description: In this study, an advanced Deep Neural Network (DNN) was meticulously developed to process and analyze a dataset sourced from the Large Hadron Collider (LHC) experiment, utilizing data collected by the Compact Muon Solenoid (CMS) Detector. The main goal of the DNN was to employ cutting-edge line segment tracking techniques to predict the validity of particle tracks identified by the CMS Detector.
+# Introduction
+The ENLACE 2023 Research Summer Camp at UCSD gave rise to this project, which was completed within a span of 7 weeks. The outcomes of this endeavor were documented on a poster (accessible in the repository), fulfilling the criteria for University Students' project submissions. The majority of the code was crafted using the Pytorch framework.
+
+# Description 
+In this study, an advanced Deep Neural Network (DNN) was meticulously developed to process and analyze a dataset sourced from the Large Hadron Collider (LHC) experiment, utilizing data collected by the Compact Muon Solenoid (CMS) Detector. The main goal of the DNN was to employ cutting-edge line segment tracking techniques to predict the validity of particle tracks identified by the CMS Detector.
 
 Given the presence of a magnetic field within the CMS Detector, charged particles resulting from collisions display curved paths. These curves hold vital information concerning the particles' charge and momentum. The DNN was intricately designed to process these curved trajectories, determining whether a specific track is reliable for further analysis or should be excluded due to inaccuracies.
 
@@ -10,7 +14,14 @@ Furthermore, we conducted an in-depth analysis using Receiver Operating Characte
 
 In conclusion, this study demonstrated the remarkable potential of the developed DNN in enhancing particle track selection within the CMS Detector. The utilization of various analytical tools, including ROC curves and threshold optimization techniques, further underscored the effectiveness of our approach and highlighted the competitiveness of even the simplest DNN architecture.
 
+# Results
 ![Final Poster](FinalPoster.png)
 ![Loss Curve of DNN](LossCurve.png)
 ![Predicted Scores of DNN](PredictedScores.png)
 ![ROC Curve of DNN vs GNN](ROC_Curve.png)
+
+# Credits
+* Frank Wuerthwein (PI)
+* Jonathan Guiang (mentor)
+* Alejandro Dennis
+* Abraham Flores
