@@ -9,3 +9,5 @@ In this investigation, we harnessed the capabilities of deep learning methodolog
 Furthermore, we conducted an in-depth analysis using Receiver Operating Characteristic (ROC) curves to compare the performance of our DNN with a Graph Neural Network (GNN) in track prediction. We employed techniques such as histograms, loss curves, and F1 scores to identify optimal threshold values. Notably, our findings revealed that the performance of the simplest DNN model was comparable to more complex variants like the GNN that consisted of 3 neural networks that we compared it too.
 
 In conclusion, this study demonstrated the remarkable potential of the developed DNN in enhancing particle track selection within the CMS Detector. The utilization of various analytical tools, including ROC curves and threshold optimization techniques, further underscored the effectiveness of our approach and highlighted the competitiveness of even the simplest DNN architecture.
+
+![Final Poster](FinalPoster.png)
