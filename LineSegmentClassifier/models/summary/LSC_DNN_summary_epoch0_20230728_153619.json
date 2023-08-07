@@ -1,0 +1,15 @@
+{
+    "model_name": "LSC_DNN_model_epoch0_20230728_153619.pt",
+    "learning_rate": 0.002,
+    "number_epochs": 0,
+    "batch_size": 10000,
+    "start_time_s": 1690583779.8282537,
+    "end_time_s": 1690583988.3332705,
+    "elapsed_time_s": 208.50501680374146,
+    "train_loss": [
+        0.24119320511817932
+    ],
+    "test_loss": [
+        0.23212691444855232
+    ]
+}

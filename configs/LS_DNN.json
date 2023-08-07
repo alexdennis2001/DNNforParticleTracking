@@ -1,0 +1,44 @@
+
+{
+    "base_dir": "/crucial/userdata/alexdennis/scripts/LineSegmentClassifier",
+    "name": "LineSegmentClassifier",
+    "model": {
+      
+    },
+    "ingress": {
+      "input_file": "/crucial/userdata/abrahamflores/ENLACE2023_GNN/root_files/LSTNtuple_DNNTraining_noT5Chi2_PU200.root",
+      "ttree_name": "tree",
+      "undirected": false,
+      "edge_indices": [
+        "LS_MD_idx0",
+        "LS_MD_idx1"
+      ],
+      "edge_features": [
+        "LS_pt",
+        "LS_eta",
+        "LS_phi"
+      ],
+      "node_features": [
+        "MD_0_x",
+        "MD_0_y",
+        "MD_0_z",
+        "MD_1_x",
+        "MD_1_y",
+        "MD_1_z",
+        "MD_dphichange"
+      ],
+      "truth_label": "LS_isFake",
+      "branch_filter": "/(MD|LS)_*/",
+      "test_entry_range": [
+        95,
+        100
+      ],
+      "train_entry_range": [
+        0,
+        15
+      ]
+    },
+    "train": {
+      
+    }
+  }
